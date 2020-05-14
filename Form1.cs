@@ -21,5 +21,27 @@ namespace Tech_CSGO_Injector__Open_Source_
         {
 
         }
+
+        private void metroButton2_Click(object sender, EventArgs e)
+        {
+            DLLPATH.ShowDialog();
+        }
+
+        private void metroButton1_Click(object sender, EventArgs e)
+        {
+            try
+            {
+                Inject.TInjectr(metroTextBox1.Text, "csgo");
+            }
+            catch
+            {
+                MessageBox.Show("Erro ao Injetar a DLL, tente novamente", "Tech CSGO Injector");
+            }
+        }
+
+        private void DLLPATH_FileOk(object sender, CancelEventArgs e)
+        {
+            metroTextBox1.Text = DLLPATH.FileName;
+        }
     }
 }

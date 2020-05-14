@@ -31,6 +31,8 @@
             this.metroLabel1 = new MetroFramework.Controls.MetroLabel();
             this.metroTextBox1 = new MetroFramework.Controls.MetroTextBox();
             this.metroButton1 = new MetroFramework.Controls.MetroButton();
+            this.metroButton2 = new MetroFramework.Controls.MetroButton();
+            this.DLLPATH = new System.Windows.Forms.OpenFileDialog();
             this.SuspendLayout();
             // 
             // metroLabel1
@@ -48,7 +50,7 @@
             // 
             // 
             this.metroTextBox1.CustomButton.Image = null;
-            this.metroTextBox1.CustomButton.Location = new System.Drawing.Point(320, 1);
+            this.metroTextBox1.CustomButton.Location = new System.Drawing.Point(290, 1);
             this.metroTextBox1.CustomButton.Name = "";
             this.metroTextBox1.CustomButton.Size = new System.Drawing.Size(21, 21);
             this.metroTextBox1.CustomButton.Style = MetroFramework.MetroColorStyle.Blue;
@@ -68,7 +70,7 @@
             this.metroTextBox1.SelectionLength = 0;
             this.metroTextBox1.SelectionStart = 0;
             this.metroTextBox1.ShortcutsEnabled = true;
-            this.metroTextBox1.Size = new System.Drawing.Size(303, 23);
+            this.metroTextBox1.Size = new System.Drawing.Size(312, 23);
             this.metroTextBox1.TabIndex = 1;
             this.metroTextBox1.UseSelectable = true;
             this.metroTextBox1.WaterMark = "Selecione a DLL:";
@@ -77,22 +79,40 @@
             // 
             // metroButton1
             // 
-            this.metroButton1.Location = new System.Drawing.Point(270, 246);
+            this.metroButton1.Location = new System.Drawing.Point(270, 216);
             this.metroButton1.Name = "metroButton1";
             this.metroButton1.Size = new System.Drawing.Size(132, 38);
             this.metroButton1.TabIndex = 2;
             this.metroButton1.Text = "INJECT";
             this.metroButton1.UseSelectable = true;
+            this.metroButton1.Click += new System.EventHandler(this.metroButton1_Click);
+            // 
+            // metroButton2
+            // 
+            this.metroButton2.Location = new System.Drawing.Point(378, 146);
+            this.metroButton2.Name = "metroButton2";
+            this.metroButton2.Size = new System.Drawing.Size(24, 23);
+            this.metroButton2.TabIndex = 3;
+            this.metroButton2.Text = "...";
+            this.metroButton2.UseSelectable = true;
+            this.metroButton2.Click += new System.EventHandler(this.metroButton2_Click);
+            // 
+            // DLLPATH
+            // 
+            this.DLLPATH.FileOk += new System.ComponentModel.CancelEventHandler(this.DLLPATH_FileOk);
             // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(420, 296);
+            this.ClientSize = new System.Drawing.Size(420, 260);
+            this.Controls.Add(this.metroButton2);
             this.Controls.Add(this.metroButton1);
             this.Controls.Add(this.metroTextBox1);
             this.Controls.Add(this.metroLabel1);
+            this.MaximumSize = new System.Drawing.Size(420, 296);
             this.Name = "Form1";
+            this.ShadowType = MetroFramework.Forms.MetroFormShadowType.DropShadow;
             this.Text = "Tech CSGO Injector v1";
             this.Load += new System.EventHandler(this.Form1_Load);
             this.ResumeLayout(false);
@@ -105,6 +125,8 @@
         private MetroFramework.Controls.MetroLabel metroLabel1;
         private MetroFramework.Controls.MetroTextBox metroTextBox1;
         private MetroFramework.Controls.MetroButton metroButton1;
+        private MetroFramework.Controls.MetroButton metroButton2;
+        private System.Windows.Forms.OpenFileDialog DLLPATH;
     }
 }
 
