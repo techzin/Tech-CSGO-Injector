@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30011.22
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tech-CSGO-Injector--Open-Source-", "Tech-CSGO-Injector--Open-Source-.csproj", "{D20887E3-A48E-4CED-AC65-823EF33C9CB0}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{D20887E3-A48E-4CED-AC65-823EF33C9CB0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D20887E3-A48E-4CED-AC65-823EF33C9CB0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D20887E3-A48E-4CED-AC65-823EF33C9CB0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D20887E3-A48E-4CED-AC65-823EF33C9CB0}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {1DD5B519-7721-44C7-BB5D-7E8CC5910B46}
+	EndGlobalSection
+EndGlobal
