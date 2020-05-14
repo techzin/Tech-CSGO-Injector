@@ -110,6 +110,7 @@
             this.Controls.Add(this.metroButton1);
             this.Controls.Add(this.metroTextBox1);
             this.Controls.Add(this.metroLabel1);
+            this.MaximizeBox = false;
             this.MaximumSize = new System.Drawing.Size(420, 296);
             this.Name = "Form1";
             this.ShadowType = MetroFramework.Forms.MetroFormShadowType.DropShadow;
