@@ -1,0 +1,14 @@
+C:\Users\techp\Documents\GitHub\Public\Tech-CSGO-Injector\bin\x86\Release\Tech-CSGO-Injector--Open-Source-.exe.config
+C:\Users\techp\Documents\GitHub\Public\Tech-CSGO-Injector\bin\x86\Release\Tech-CSGO-Injector--Open-Source-.exe
+C:\Users\techp\Documents\GitHub\Public\Tech-CSGO-Injector\bin\x86\Release\Tech-CSGO-Injector--Open-Source-.pdb
+C:\Users\techp\Documents\GitHub\Public\Tech-CSGO-Injector\bin\x86\Release\MetroFramework.Design.dll
+C:\Users\techp\Documents\GitHub\Public\Tech-CSGO-Injector\bin\x86\Release\MetroFramework.dll
+C:\Users\techp\Documents\GitHub\Public\Tech-CSGO-Injector\bin\x86\Release\MetroFramework.Fonts.dll
+C:\Users\techp\Documents\GitHub\Public\Tech-CSGO-Injector\obj\x86\Release\Tech-CSGO-Injector--Open-Source-.csprojAssemblyReference.cache
+C:\Users\techp\Documents\GitHub\Public\Tech-CSGO-Injector\obj\x86\Release\Tech_CSGO_Injector__Open_Source_.Form1.resources
+C:\Users\techp\Documents\GitHub\Public\Tech-CSGO-Injector\obj\x86\Release\Tech_CSGO_Injector__Open_Source_.Properties.Resources.resources
+C:\Users\techp\Documents\GitHub\Public\Tech-CSGO-Injector\obj\x86\Release\Tech-CSGO-Injector--Open-Source-.csproj.GenerateResource.cache
+C:\Users\techp\Documents\GitHub\Public\Tech-CSGO-Injector\obj\x86\Release\Tech-CSGO-Injector--Open-Source-.csproj.CoreCompileInputs.cache
+C:\Users\techp\Documents\GitHub\Public\Tech-CSGO-Injector\obj\x86\Release\Tech-CSGO-Injector--Open-Source-.csproj.CopyComplete
+C:\Users\techp\Documents\GitHub\Public\Tech-CSGO-Injector\obj\x86\Release\Tech-CSGO-Injector--Open-Source-.exe
+C:\Users\techp\Documents\GitHub\Public\Tech-CSGO-Injector\obj\x86\Release\Tech-CSGO-Injector--Open-Source-.pdb
