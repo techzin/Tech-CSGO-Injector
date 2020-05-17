@@ -65,7 +65,7 @@
             this.metroTextBox1.MaxLength = 32767;
             this.metroTextBox1.Name = "metroTextBox1";
             this.metroTextBox1.PasswordChar = '\0';
-            this.metroTextBox1.WaterMark = "Selecione a DLL:";
+            this.metroTextBox1.PromptText = "Selecione a DLL:";
             this.metroTextBox1.ScrollBars = System.Windows.Forms.ScrollBars.None;
             this.metroTextBox1.SelectedText = "";
             this.metroTextBox1.SelectionLength = 0;
@@ -114,7 +114,8 @@
             this.Controls.Add(this.metroLabel1);
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.MaximizeBox = false;
-            this.MaximumSize = new System.Drawing.Size(420, 296);
+            this.MaximumSize = new System.Drawing.Size(420, 260);
+            this.MinimumSize = new System.Drawing.Size(420, 260);
             this.Name = "Form1";
             this.ShadowType = MetroFramework.Forms.MetroFormShadowType.DropShadow;
             this.Text = "Tech CSGO Injector v1";
