@@ -33,7 +33,7 @@ namespace Tech_CSGO_Injector__Open_Source_
             {
                 metroButton1.Enabled = false;
                 metroButton1.Text = "Injetando...";
-                Inject.TInjectr(metroTextBox1.Text, "csgo");
+                Inject.TInjectr(metroTextBox1.Text, metroTextBox2.Text);
             }
             catch
             {
