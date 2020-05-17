@@ -34,6 +34,7 @@
             this.metroButton1 = new MetroFramework.Controls.MetroButton();
             this.metroButton2 = new MetroFramework.Controls.MetroButton();
             this.DLLPATH = new System.Windows.Forms.OpenFileDialog();
+            this.metroPanel1 = new MetroFramework.Controls.MetroPanel();
             this.SuspendLayout();
             // 
             // metroLabel1
@@ -103,11 +104,25 @@
             // 
             this.DLLPATH.FileOk += new System.ComponentModel.CancelEventHandler(this.DLLPATH_FileOk);
             // 
+            // metroPanel1
+            // 
+            this.metroPanel1.HorizontalScrollbarBarColor = true;
+            this.metroPanel1.HorizontalScrollbarHighlightOnWheel = false;
+            this.metroPanel1.HorizontalScrollbarSize = 10;
+            this.metroPanel1.Location = new System.Drawing.Point(406, 236);
+            this.metroPanel1.Name = "metroPanel1";
+            this.metroPanel1.Size = new System.Drawing.Size(13, 22);
+            this.metroPanel1.TabIndex = 4;
+            this.metroPanel1.VerticalScrollbarBarColor = true;
+            this.metroPanel1.VerticalScrollbarHighlightOnWheel = false;
+            this.metroPanel1.VerticalScrollbarSize = 10;
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(420, 260);
+            this.Controls.Add(this.metroPanel1);
             this.Controls.Add(this.metroButton2);
             this.Controls.Add(this.metroButton1);
             this.Controls.Add(this.metroTextBox1);
@@ -132,6 +147,7 @@
         private MetroFramework.Controls.MetroButton metroButton1;
         private MetroFramework.Controls.MetroButton metroButton2;
         private System.Windows.Forms.OpenFileDialog DLLPATH;
+        private MetroFramework.Controls.MetroPanel metroPanel1;
     }
 }
 
