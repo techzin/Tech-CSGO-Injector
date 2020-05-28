@@ -9,3 +9,4 @@ C:\Users\techp\Documents\GitHub\Public\Tech-CSGO-Injector\obj\x86\Release\Tech-C
 C:\Users\techp\Documents\GitHub\Public\Tech-CSGO-Injector\obj\x86\Release\Tech-CSGO-Injector--Open-Source-.exe
 C:\Users\techp\Documents\GitHub\Public\Tech-CSGO-Injector\obj\x86\Release\Tech-CSGO-Injector--Open-Source-.pdb
 C:\Users\techp\Documents\GitHub\Public\Tech-CSGO-Injector\obj\x86\Release\Tech-CSGO-Injector--Open-Source-.csproj.Fody.CopyLocal.cache
+C:\Users\techp\Documents\GitHub\Public\Tech-CSGO-Injector\obj\x86\Release\Tech_CSGO_Injector__Open_Source_.Form2.resources
