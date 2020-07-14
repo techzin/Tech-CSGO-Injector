@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using System.Diagnostics;
 using System.Linq;
+using System.Runtime.CompilerServices;
 using System.Runtime.InteropServices;
 using System.Text;
 using System.Threading.Tasks;
@@ -50,10 +51,11 @@ namespace Tech_CSGO_Injector__Open_Source_
         const uint MEM_RESERVE = 0x00002000;
         const uint PAGE_READWRITE = 4;
 
-        public static void TInjectr(string DLL, string game)
+        public static void TInjectr(string DLL, int game)
         {
-            
-                Process targetProcess = Process.GetProcessesByName(game)[0];
+            try
+            {
+                Process targetProcess = Process.GetProcessById(game);
 
                 IntPtr procHandle = OpenProcess(PROCESS_CREATE_THREAD | PROCESS_QUERY_INFORMATION | PROCESS_VM_OPERATION | PROCESS_VM_WRITE | PROCESS_VM_READ, false, targetProcess.Id);
 
@@ -70,7 +72,13 @@ namespace Tech_CSGO_Injector__Open_Source_
                 WriteProcessMemory(procHandle, allocMemAddress, Encoding.Default.GetBytes(dllName), (uint)((dllName.Length + 1) * Marshal.SizeOf(typeof(char))), out bytesWritten);
 
                 CreateRemoteThread(procHandle, IntPtr.Zero, 0, loadLibraryAddr, allocMemAddress, 0, IntPtr.Zero);
-           
+
+                MessageBox.Show( "Injection Sucess!", "T-Injector v1.1 | Method: Internal Method", MessageBoxButtons.OK, MessageBoxIcon.Asterisk);
+            }
+            catch
+            {
+                MessageBox.Show("Injection Failed!", "T-Injector v1.1 | Method: Internal Method", MessageBoxButtons.OK, MessageBoxIcon.Error);
+            }
             
         }
     }

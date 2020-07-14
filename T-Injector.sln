@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.30011.22
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tech-CSGO-Injector--Open-Source-", "Tech-CSGO-Injector--Open-Source-.csproj", "{D20887E3-A48E-4CED-AC65-823EF33C9CB0}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "T-Injector", "T-Injector.csproj", "{D20887E3-A48E-4CED-AC65-823EF33C9CB0}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

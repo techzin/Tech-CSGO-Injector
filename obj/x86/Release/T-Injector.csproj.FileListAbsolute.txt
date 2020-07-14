@@ -1,0 +1,11 @@
+C:\Users\techp\Documents\GitHub\Public\Tech-CSGO-Injector\bin\x86\Release\Tech-CSGO-Injector--Open-Source-.exe.config
+C:\Users\techp\Documents\GitHub\Public\Tech-CSGO-Injector\bin\x86\Release\Tech-CSGO-Injector--Open-Source-.exe
+C:\Users\techp\Documents\GitHub\Public\Tech-CSGO-Injector\bin\x86\Release\Tech-CSGO-Injector--Open-Source-.pdb
+C:\Users\techp\Documents\GitHub\Public\Tech-CSGO-Injector\obj\x86\Release\Tech_CSGO_Injector__Open_Source_.MainWindow.resources
+C:\Users\techp\Documents\GitHub\Public\Tech-CSGO-Injector\obj\x86\Release\Tech_CSGO_Injector__Open_Source_.Properties.Resources.resources
+C:\Users\techp\Documents\GitHub\Public\Tech-CSGO-Injector\obj\x86\Release\T-Injector.csproj.GenerateResource.cache
+C:\Users\techp\Documents\GitHub\Public\Tech-CSGO-Injector\obj\x86\Release\T-Injector.csproj.CoreCompileInputs.cache
+C:\Users\techp\Documents\GitHub\Public\Tech-CSGO-Injector\obj\x86\Release\T-Injector.csproj.Fody.CopyLocal.cache
+C:\Users\techp\Documents\GitHub\Public\Tech-CSGO-Injector\obj\x86\Release\Tech-CSGO-Injector--Open-Source-.exe
+C:\Users\techp\Documents\GitHub\Public\Tech-CSGO-Injector\obj\x86\Release\Tech-CSGO-Injector--Open-Source-.pdb
+C:\Users\techp\Documents\GitHub\Public\Tech-CSGO-Injector\obj\x86\Release\T-Injector.csprojAssemblyReference.cache
